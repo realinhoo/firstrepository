@@ -12,10 +12,8 @@
 
 n = int(input('Ввести данные: '))
 while n % 2 == 0:
-    print('Не корректно.')
-    break
-else:
-    print('Пойдет')
+    print("Вводить можно только нечетные значения")
+    n = int(input('Ввести данные: '))
 
 for i in range(n, 0, -2):
     for j in range( (n - i) // 2):
