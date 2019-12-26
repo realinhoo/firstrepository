@@ -11,23 +11,37 @@
 
 
 n = int(input('Ввести данные: '))
-while n % 2 == 0:
-    print("Вводить можно только нечетные значения")
+while n != 0:
+    print(n * n)
     n = int(input('Ввести данные: '))
 
-for i in range(n, 0, -2):
-    for j in range( (n - i) // 2):
-        print(' ', end='')
-    for j in range(i):
-        print('*', end='')
-    print()
 
-for i in range(3, n + 1, 2):
-    for j in range( (n - i) // 2):
-        print(' ', end='')
-    for j in range(i):
-        print('*', end='')
-    print()
+
+
+
+
+
+
+
+
+
+
+
+
+
+#for i in range(n, 0, -2):
+#    for j in range( (n - i) // 2):
+#        print(' ', end='')
+#    for j in range(i):
+#        print('*', end='')
+#    print()
+
+#for i in range(3, n + 1, 2):
+#    for j in range( (n - i) // 2):
+#        print(' ', end='')
+#    for j in range(i):
+#        print('*', end='')
+#    print()
 
 
 
