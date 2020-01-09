@@ -10,12 +10,12 @@
 #    print()
 
 
-n = int(input('Ввести данные: '))
-while n != 0:
-    print(n * n)
-    n = int(input('Ввести данные: '))
+n = 0
 
-
+while n < 100:
+    s = int(input('Ввести данные: '))
+    n += s
+print(n)
 
 
 
