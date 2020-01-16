@@ -9,15 +9,25 @@
 #        print('*', end='')
 #    print()
 
+#userNumber = int(input('Данные: '))
+#indexNumber = 1
+#while userNumber != 0:
+#    indexNumber *= userNumber
+#    userNumber = int(input('Данные: '))
+#print(indexNumber)
+
+#n = 0
+#while n < 100:
+#    s = int(input('Введите данные: '))
+#    n += s
+#print(n)
 
 n = 0
-
-while n < 100:
-    s = int(input('Ввести данные: '))
-    n += s
+s = int(input('Ввести данные: '))
+while s > 0:
+    n = n + s % 10
+    s = s // 10
 print(n)
-
-
 
 
 
