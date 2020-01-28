@@ -65,41 +65,43 @@
 
 
 
-import random
-x = random.randint(1, 100)
-s = 0
-n = 0
+#import random
+#x = random.randint(1, 100)
+#s = 0
+#n = 0
 
-while s != x:
-    s = int(input('Введите число: '))
-    n = n + 1
-    if s == x:
-        print('Угадано!')
-    elif s < x:
-        print('Загаданное число больше.')
-    else:
-        print('Загаданное число меньше.')
-print(f'Количество попыток{n}')
-
-
+#while s != x:
+#    s = int(input('Введите число: '))
+#    n = n + 1
+#    if s == x:
+#        print('Угадано!')
+#    elif s < x:
+#        print('Загаданное число больше.')
+#    else:
+#        print('Загаданное число меньше.')
+#print(f'Количество попыток {n}')
 
 
-number = int(input('Число: '))
-f = 1
 
-for i in range(1, number+1):
-    f *= i
-print(f'Факториал равен {f}')
+
+#number = int(input('Число: '))
+#f = 1
+
+#for i in range(1, number + 1):
+#    f *= i
+#print(f'Факториал равен {f}')
 
 
 
 
 #x = random.randint(1, 100)
 #run = True
+#n = 0
 
 #while run:
 #    s = int(input('Введите число: '))
-    
+#    n = n + 1
+#
 #    if s == x:
 #        print('Угадано!')
 #        run = False
@@ -107,3 +109,72 @@ print(f'Факториал равен {f}')
 #        print('Загаданное число больше.')
 #    else:
 #        print('Загаданное число меньше.')
+#print(f'Количество попыток {n}')
+
+
+#number = int(input('Число: '))
+#f = 1
+
+#for i in range(1, number + 1):
+#    f *= i
+#print(f'Факториал равен {f}')
+
+
+
+#fb1 = 1
+#fb2 = 1
+#s = 1
+#n = int(input('Число: '))
+#for i in range(3, n + 1):
+#    s = fb1 + fb2
+#    fb1 = fb2
+#    fb2 = s
+#print(s)
+
+#n = int(input('Данные 1: '))
+#m = int(input('Данные 2: '))
+#while n < m:
+#    print('Не корректно')
+#    n = int(input('Данные 1: '))
+#    m = int(input('Данные 2: '))
+
+#f = 1
+#for i in range(1, n + 1):
+#    f *= i
+#print(f)
+
+#j = 1
+#for i in range(1, m + 1):
+#    j *= i
+#print(j)
+
+#k = n - m
+#h = 1
+#for i in range(1, k + 1):
+#    h *= i
+#print(h)
+
+#factorial = f // (j * h)
+#print(factorial)
+
+
+def factorial(n):
+    r = 1
+    for i in range(1, n + 1):
+        r *= 1
+    return r
+
+n = int(input('Данные '))
+
+j = factorial(5)
+print(j)
+
+
+
+
+
+
+
+
+
+
