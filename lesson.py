@@ -164,10 +164,10 @@ def factorial(n):
         r *= 1
     return r
 
-n = int(input('Данные '))
+x = int(input('Данные '))
+print(factorial(x))
 
-j = factorial(5)
-print(j)
+
 
 
 
