@@ -131,31 +131,31 @@
 #    fb2 = s
 #print(s)
 
-#n = int(input('Данные 1: '))
-#m = int(input('Данные 2: '))
-#while n < m:
-#    print('Не корректно')
-#    n = int(input('Данные 1: '))
-#    m = int(input('Данные 2: '))
+n = int(input('Данные 1: '))
+m = int(input('Данные 2: '))
+while n < m:
+    print('Не корректно')
+    n = int(input('Данные 1: '))
+    m = int(input('Данные 2: '))
 
-#f = 1
-#for i in range(1, n + 1):
-#    f *= i
-#print(f)
+f = 1
+for i in range(1, n + 1):
+    f *= i
+print(f)
 
-# = 1
-#for i in range(1, m + 1):
-#    j *= i
-#print(j)
+j = 1
+for i in range(1, m + 1):
+    j *= i
+print(j)
 
-#k = n - m
-#h = 1
-#for i in range(1, k + 1):
-#    h *= i
-#print(h)
+k = n - m
+h = 1
+for i in range(1, k + 1):
+    h *= i
+print(h)
 
-#factorial = f // (j * h)
-#print(factorial)
+factorial = f // (j * h)
+print(factorial)
 
 
 def factorial(x):
