@@ -143,7 +143,7 @@
 #    f *= i
 #print(f)
 
-#j = 1
+# = 1
 #for i in range(1, m + 1):
 #    j *= i
 #print(j)
@@ -158,19 +158,14 @@
 #print(factorial)
 
 
-def factorial(n):
+def factorial(x):
     r = 1
-    for i in range(1, n + 1):
-        r *= 1
+    for i in range(1, x + 1):
+        r *= i
     return r
-
-x = int(input('Данные '))
-print(factorial(x))
-
-
-
-
-
+n = int(input('Данные: '))
+j = factorial(n)
+print(j)
 
 
 
