@@ -6,9 +6,7 @@ def factorial(x):
 
 n = int(input('Данные 1: '))
 m = int(input('Данные 2: '))
-number = factorial(n)
-n2 = factorial(m)
-n3 = factorial(n - m)
+number = factorial(n) / (factorial(m) * factorial(n-m))
 print(number)
 
 
