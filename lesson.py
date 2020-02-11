@@ -163,7 +163,9 @@ def factorial(x):
     for i in range(1, x + 1):
         r *= i
     return r
+
 n = int(input('Данные: '))
+
 j = factorial(n)
 print(j)
 
