@@ -16,7 +16,6 @@ count = 0
 for ticket_number in range(ticket_number_start, ticket_number_end + 1):
     if lucky(ticket_number):
         count += 1
-
 print(count)
 
 
