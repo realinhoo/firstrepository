@@ -7,7 +7,6 @@ def lucky(x):
     for i in range(3):
         b2 = b2 + x % 10
         x = x // 10
-
     return b1 == b2
     
 ticket_number_start = int(input('Введите номер: '))

@@ -11,3 +11,4 @@ if prime_number(number):
     print("Простое")
 else:
     print("Составное")
+

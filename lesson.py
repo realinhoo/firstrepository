@@ -165,7 +165,6 @@ def factorial(x):
     return r
 
 n = int(input('Данные: '))
-
 j = factorial(n)
 print(j)
 
