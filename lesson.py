@@ -157,7 +157,6 @@ print(h)
 factorial = f // (j * h)
 print(factorial)
 
-
 def factorial(x):
     r = 1
     for i in range(1, x + 1):
