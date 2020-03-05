@@ -19,10 +19,10 @@
 def rev(x):
     if x == 0:
         return
+    one = ((x % 10) + 1) % 10
     rev(x // 10)
-    one = x % 10
     print(one, end="")
-    
+
 
 user = int(input('Данные: '))
 rev(user)
