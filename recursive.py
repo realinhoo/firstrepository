@@ -11,43 +11,41 @@
 #     if x == 0:
 #         return 1
 #     return x * factorial(x - 1)
+
 # number = int(input('Число: '))
 # print(factorial(number))
 
 
 
-def rev(x):
+# def rev(x):
+#     if x == 0:
+#         return
+#     one = (x + 1) % 10
+#     rev(x // 10)
+#     print(one, end="")
+
+# user = int(input('Данные: '))
+# rev(user)
+
+# s = 0
+# number = int(input('Данные: '))
+# while number > 0:
+#     s = s + number % 10
+#     number = number // 10
+# print(s)
+
+def sum(x):
     if x == 0:
-        return
-    one = (x  + 1) % 10
-    rev(x // 10)
-    print(one, end="")
+        return 0
+    return (x % 10) + sum(x // 10)
 
+number = int(input('Число: '))
+print(sum(number))
 
-user = int(input('Данные: '))
-rev(user)
-
-
-
-
-# n = int(input('Число '))
-# one  = 0
-# while n != 0:
-#     one = n % 10
-#     print(one, end='')
-#     n = n // 10
-
-
-
-# n1 = int(input('Число '))
-# n2 = 0
-# while n1 > 0:
-#     digit = n1 % 10
-#     n1 = n1 // 10
-#     n2 = (n2 * 10) + digit
-# print('Обратное число', n2)
 
 
 
 #print(input('Число ')[:: -1])
+
+
 
