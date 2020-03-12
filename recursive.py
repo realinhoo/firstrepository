@@ -27,25 +27,32 @@
 # user = int(input('Данные: '))
 # rev(user)
 
-# s = 0
-# number = int(input('Данные: '))
-# while number > 0:
-#     s = s + number % 10
-#     number = number // 10
-# print(s)
 
-def sum(x):
-    if x == 0:
-        return 0
-    return (x % 10) + sum(x // 10)
+# def sum(x):
+#     if x == 0:
+#         return 0
+#     return (x % 10) + sum(x // 10)
+
+# number = int(input('Число: '))
+# print(sum(number))
+
+
+
+def sumNumber(x):
+    if x == 1:
+        return 1
+    if x % 2 == 0:
+        return sumNumber(x - 1)
+    else:
+        return x + sumNumber(x - 2)
+
+
 
 number = int(input('Число: '))
-print(sum(number))
+print(sumNumber(number))
 
 
-
-
-#print(input('Число ')[:: -1])
+#print(input('Число: ')[:: -1])
 
 
 
