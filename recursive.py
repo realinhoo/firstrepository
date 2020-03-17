@@ -36,23 +36,38 @@
 # number = int(input('Число: '))
 # print(sum(number))
 
+# def number(x):
+#     if x < 10:
+#         return x
+#     one = x % 10
+#     two = number(x // 10)
+#     if one > two:
+#         return one
+#     else:
+#         return two
+    
+# n = int(input('Число: '))
+# print(number(n))
 
 
-def sumNumber(x):
-    if x == 1:
-        return 1
-    if x % 2 == 0:
-        return sumNumber(x - 1)
-    else:
-        return x + sumNumber(x - 2)
+# def sumNumber(x):
+#     if x == 1:
+#         return 1
+#     if x % 2 == 0:
+#         return sumNumber(x - 1)
+#     else:
+#         return x + sumNumber(x - 2)
 
-
-
-number = int(input('Число: '))
-print(sumNumber(number))
+# number = int(input('Число: '))
+# print(sumNumber(number))
 
 
 #print(input('Число: ')[:: -1])
 
-
+# n = int(input('Число: '))
+# s = 0
+# while n > 0:
+#     s = s + n % 10
+#     n = n // 10
+# print(s)
 
